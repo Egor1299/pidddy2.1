@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+a{
+    background-image: linear-gradient(to right, red, orange, yellow, green, rgb(136, 136, 255), blue, rgb(201, 76, 201), violet);
+    box-shadow: 6px 6px 1px 0 blue;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
+}
+a:hover{
+    font-size: 18px;
+    box-shadow: 6px 6px 1px 0 rgb(66, 66, 246);
+    transition: all 1s ease-out;
+}
+a:focus{
+    transition: all 0.1s ease-in;
+    box-shadow: -6px -6px 1px 0 rgb(66, 66, 246);
+}
+nav{
+    margin-top: 25px;
+}
